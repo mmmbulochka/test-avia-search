@@ -1,0 +1,48 @@
+.cities {
+  display: flex;
+  justify-content: space-between;
+  }
+
+.transfer {
+  display: flex;
+  justify-content: center;
+  color: #ffa864;
+  }
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  }
+
+.flights {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-direction: column;
+  }
+
+.diff {
+  display: flex;
+  justify-content: center;
+  }
+
+.blue_date {
+  color: dodgerblue;
+  font-size: 14px;
+  }
+
+.blue {
+  color: dodgerblue;
+  }
+
+.time_block {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px
+  }
+
+.departure_block {
+  display: flex;
+  align-items: flex-end;
+  }

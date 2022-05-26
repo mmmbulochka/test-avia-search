@@ -1,0 +1,51 @@
+.card {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+  }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #1e80c7;
+  color: white;
+  }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #ffa864;
+  color: white;
+  padding: 16px;
+  }
+
+.content {
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+
+.text {
+  font-size: 12px;
+  }
+
+.header_price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  }
+
+.img {
+  height: 28px;
+  width: 28px;
+  color: white;
+  }
+
+.header_airline {
+  display: flex;
+  gap: 10px;
+  font-size: 22px;
+  /*flex-direction: column;*/
+  align-items: flex-end;
+  }
