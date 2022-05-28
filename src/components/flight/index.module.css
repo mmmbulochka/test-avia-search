@@ -1,48 +1,75 @@
 .cities {
   display: flex;
   justify-content: space-between;
-  }
+}
 
 .transfer {
-  display: flex;
-  justify-content: center;
   color: #ffa864;
-  }
+}
 
 .time {
   display: flex;
   justify-content: space-between;
   font-size: 17px;
-  }
+}
 
 .flights {
   display: flex;
   gap: 10px;
   margin-top: 10px;
   flex-direction: column;
-  }
+}
 
 .diff {
   display: flex;
   justify-content: center;
-  }
+}
 
-.blue_date {
+.date {
   color: dodgerblue;
   font-size: 14px;
-  }
+}
 
-.blue {
+.airport_short {
   color: dodgerblue;
-  }
+}
 
 .time_block {
   display: flex;
   align-items: flex-end;
-  gap: 5px
-  }
+  gap: 5px;
+}
 
 .departure_block {
   display: flex;
   align-items: flex-end;
-  }
+}
+
+.diff_img {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.img {
+  height: 16px;
+  width: 16px;
+}
+
+.line {
+  height: 1px;
+  background-color: lightgray;
+  margin-top: 4px;
+}
+
+.transfer_line {
+  height: 1px;
+  flex-grow: 1;
+  background-color: lightgray;
+}
+
+.transfer_block {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

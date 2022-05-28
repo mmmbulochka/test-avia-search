@@ -1,0 +1,41 @@
+.side_bar {
+  padding: 10px;
+  font-size: 14px;
+  color: #383838;
+}
+
+.input_block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input_block_group {
+  margin-left: 10px;
+}
+
+.input_block_group_price {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.airlines {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.airline {
+  display: flex;
+  gap: 5px;
+}

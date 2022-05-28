@@ -1,14 +1,21 @@
 .home {
   display: flex;
-  flex-direction: row;
+}
 
-  }
+.body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 20px;
+  padding: 20px;
+}
 
 .side_bar {
-  min-width: 200px;
-  max-width: 400px;
-  background-color: lightcoral;
-  }
+  min-width: 250px;
+  max-width: 500px;
+  position: sticky;
+  top: 0px;
+}
 
 .content {
   display: flex;
@@ -16,10 +23,12 @@
   gap: 50px;
   min-width: 100px;
   width: 100%;
+}
+
+.button {
   padding: 10px;
-  }
-
-
+  align-self: center;
+}
 
 /*@media (max-width: 600px) {*/
 /*  .grid {*/

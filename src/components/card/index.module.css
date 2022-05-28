@@ -2,16 +2,17 @@
   min-width: 300px;
   display: flex;
   flex-direction: column;
-  gap: 10px
-  }
+  gap: 10px;
+  background-color: #f7fafc;
+}
 
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 8px;
   background-color: #1e80c7;
   color: white;
-  }
+}
 
 .footer {
   display: flex;
@@ -19,33 +20,50 @@
   background-color: #ffa864;
   color: white;
   padding: 16px;
-  }
+}
 
 .content {
   padding-left: 20px;
   padding-right: 20px;
-  }
+}
 
 .text {
   font-size: 12px;
-  }
+}
 
 .header_price {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  }
+}
 
-.img {
+.header_price_img {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+
+.img_plane {
   height: 28px;
   width: 28px;
-  color: white;
-  }
+}
+
+.img_ruble {
+  height: 22px;
+  width: 22px;
+}
 
 .header_airline {
   display: flex;
   gap: 10px;
   font-size: 22px;
-  /*flex-direction: column;*/
-  align-items: flex-end;
-  }
+  align-items: center;
+}
+
+.line {
+  height: 2px;
+  background-color: #1e80c7;
+  margin-top: 5px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
